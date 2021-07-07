@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-width: 300px;
+}
+
+input {
+  width: 90%;
+  margin: 1rem;
+  height: 2rem;
+  font-size: 1rem;
+}
+
+.btn-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  max-width: 9rem;
+  min-width: max-content;
+  padding: 0.5rem 2rem;
+  margin-left: 1rem;
+  font-size: 1rem;
+  background: rgb(255, 196, 118);
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  border: 1px solid rgb(255, 196, 118);
+  transition: transform 0.3s ease-in-out;
+}
+
+#delete-btn {
+  background: white;
+}
+
+button:hover,
+button:focus {
+  transform: scale(1.02);
+  box-shadow: 3px 3px 3px rgb(197, 197, 197);
+}
+
+input:focus {
+  background: rgba(255, 235, 209, 0.596);
+}
+
+.leads-container {
+  width: 90%;
+  margin: 1rem 0 1rem 2rem;
+  font-size: 1.1rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  list-style: square;
+  color: rgb(133, 85, 22);
+}
+
+li a {
+  color: rgb(133, 85, 22);
+}
+
